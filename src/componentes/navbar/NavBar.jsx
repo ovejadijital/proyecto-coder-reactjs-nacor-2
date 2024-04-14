@@ -25,7 +25,9 @@ function NavBar() {
               <NavDropdown.Item as={NavLink} to='/category/en descuento'>en descuento</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <CartWidget/>
+          <NavLink to='/cart' className="text-decoration-none">
+            <CartWidget counter={15} />
+            </NavLink>
         </Navbar.Collapse>
       </Container>
     </Navbar>

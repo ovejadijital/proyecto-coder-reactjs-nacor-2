@@ -1,15 +1,6 @@
-const productos = [
+export const productos = [
+   
     {
-        id:'01',
-        name:'random1',
-        category:'nuevos',
-        description:'un objeto',
-        price:100,
-        img:'https://picsum.photos/200',
-        stock:10
-    },
-    {
-        id:'02',
         name:'random2',
         category:'mas vendidos',
         description:'un objeto',
@@ -17,7 +8,7 @@ const productos = [
         img:'https://picsum.photos/201',
         stock:30
     },{
-        id:'03',
+        
         name:'random3',
         category:'en descuento',
         description:'un objeto',
